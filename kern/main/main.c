@@ -52,6 +52,7 @@
 #include <version.h>
 #include "autoconf.h"  // for pseudoconfig
 
+// adding test comment
 
 /*
  * These two pieces of data are maintained by the makefiles and build system.

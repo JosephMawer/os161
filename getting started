@@ -1,0 +1,23 @@
+os161
+
+
+getting set up with os161
+
+1) run the configuration setting the ostree path
+./configure --ostree=/mnt/c/users/joseph.mawer.IDEA/ubuntu/os161/root
+
+
+2) configure the kernel
+goto: /kern/conf
+run:  ./config DUMBVM
+
+run: bmake depend	// to build dependencies
+run: bmake			// to build kernel
+run  bmake install	// to publish kernel to the ostree path set above
+
+
+
+3) use sys161 to run the built kernel
+*sys161 is a system simulator
+*sys161 requires the sys161.conf file to be in the directory you run it
+

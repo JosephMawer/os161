@@ -1,7 +1,7 @@
-os161
+os161 - getting set up with os161
 
-
-getting set up with os161
+## INSTALL WSL
+https://docs.microsoft.com/en-us/windows/wsl/install-win10?redirectedfrom=MSDN
 
 1) run the configuration setting the ostree path
 ./configure --ostree=/mnt/c/users/joseph.mawer.IDEA/ubuntu/os161/root
@@ -18,6 +18,13 @@ run  bmake install	// to publish kernel to the ostree path set above
 
 
 3) use sys161 to run the built kernel
-*sys161 is a system simulator
-*sys161 requires the sys161.conf file to be in the directory you run it
+  
+  http://os161.eecs.harvard.edu/
+  http://os161.eecs.harvard.edu/documentation/sys161-2.0.8/
 
+- sys161 is a system simulator
+- sys161 requires the sys161.conf file to be in the directory you run it
+- sys161 configures the virtual machine that your kernel runs in, i.e. it
+confiures the system simulator
+
+run: sys161 kernel	// boots the kernel

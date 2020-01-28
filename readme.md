@@ -3,6 +3,9 @@ os161 - getting set up with os161
 ## INSTALL WSL
 https://docs.microsoft.com/en-us/windows/wsl/install-win10?redirectedfrom=MSDN
 
+## OS161 RESOURCES
+http://os161.eecs.harvard.edu/resources/building.html
+
 1) run the configuration setting the ostree path
 ./configure --ostree=/mnt/c/users/joseph.mawer.IDEA/ubuntu/os161/root
 
